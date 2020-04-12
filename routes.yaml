@@ -1,0 +1,19 @@
+routes:
+  /:
+    uses: index
+    as: heartbeats.index
+  edit/{heartbeat}:
+    uses: edit
+    as: heartbeats.edit
+  delete/{heartbeat}:
+    uses: delete
+    as: heartbeats.delete
+  create:
+    uses: create
+    as: heartbeats.create
+  post@heartbeats:
+    uses: store
+    as: heartbeats.store
+  post@update/{heartbeat}:
+    uses: update
+    as: heartbeats.update

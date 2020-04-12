@@ -1,0 +1,7 @@
+name: Heartbeats
+version: 1.0.0
+description: 'Sends heartbeats to monitoring service.'
+url: https://github.com/gabrieltakacs/statamic-heartbeats
+developer: 'Ing. Gabriel Takács'
+developer_url: 'https://www.takacs-it.com'
+commercial: true

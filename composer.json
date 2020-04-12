@@ -1,0 +1,6 @@
+{
+    "name": "gabrieltakacs/statamic-heartbeats",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

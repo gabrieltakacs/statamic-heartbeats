@@ -1,0 +1,24 @@
+name:
+  type: text
+  display: Name
+  validate: required
+  width: 33
+  instructions: 'For heartbeat identification.'
+frequency:
+  type: select
+  width: 33
+  validate: required
+  options:
+    10_minutes: 10 Minutes
+    30_minutes: 30 Minutes
+    1_hour: 1 Hour
+    12_hours: 12 Hours
+    1_day: 1 Day
+    1_week: 1 Week
+  instructions: 'How often should monitoring service be pinged.'
+url:
+  type: text
+  display: URL
+  validate: required|url
+  width: 33
+  instructions: 'Monitoring service URL address.'
